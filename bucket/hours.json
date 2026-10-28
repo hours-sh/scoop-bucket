@@ -15,8 +15,8 @@
   },
   "depends": "nodejs",
   "installer": {
-    "script": "npm install --prefix $dir $dir/package"
+    "script": "npm install --global --prefix $dir https://registry.npmjs.org/@hours-sh/cli/-/cli-0.0.0-dev.tgz"
   },
-  "bin": "node_modules\\.bin\\hours.cmd",
+  "bin": "hours.cmd",
   "notes": "Add 'hours completion powershell | Out-String | Invoke-Expression' to your PowerShell profile to enable completion."
 }
