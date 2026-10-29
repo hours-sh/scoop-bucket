@@ -1,21 +1,21 @@
 {
-  "version": "0.0.0-dev.1",
+  "version": "0.2.0",
   "description": "Local-first time tracking CLI",
   "homepage": "https://hours.sh",
   "license": "UNLICENSED",
   "architecture": {
     "64bit": {
-      "url": "https://registry.npmjs.org/@hours-sh/cli/-/cli-0.0.0-dev.1.tgz",
-      "hash": "583cb9d74a4c7ba6d2140ae6bfd6a47a0cd935e68c2013d0049ef1b9f20980c3"
+      "url": "https://registry.npmjs.org/@hours-sh/cli/-/cli-0.2.0.tgz",
+      "hash": "51d40f3027fb31f15c857eee322f995d53e204741348815291e337538cd4b6e1"
     },
     "arm64": {
-      "url": "https://registry.npmjs.org/@hours-sh/cli/-/cli-0.0.0-dev.1.tgz",
-      "hash": "583cb9d74a4c7ba6d2140ae6bfd6a47a0cd935e68c2013d0049ef1b9f20980c3"
+      "url": "https://registry.npmjs.org/@hours-sh/cli/-/cli-0.2.0.tgz",
+      "hash": "51d40f3027fb31f15c857eee322f995d53e204741348815291e337538cd4b6e1"
     }
   },
   "depends": "nodejs",
   "installer": {
-    "script": "npm install --global --prefix $dir https://registry.npmjs.org/@hours-sh/cli/-/cli-0.0.0-dev.1.tgz"
+    "script": "npm install --global --prefix $dir https://registry.npmjs.org/@hours-sh/cli/-/cli-0.2.0.tgz"
   },
   "bin": "hours.cmd",
   "notes": "Add 'hours completion powershell | Out-String | Invoke-Expression' to your PowerShell profile to enable completion."
